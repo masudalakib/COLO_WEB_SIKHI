@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        *{
+            /* margin: 0%; */
+        }
+        p{
+            color: rgb(74, 9, 224);
+        }
+        #four, li{
+            font-size: 26px;
+        }
+        .yellow, .holud{
+            background-color: yellow;
+        }
+        .bold{
+            font-weight: 800;
+        }
+        input[type="password"]{  /* sudu marto password e color change hobe */
+            color: red;
+        }
+        .css
+        {
+            color: rgb(235, 3, 3);
+        }
+        .blog{background-color: tomato;}
+    </style>
+</head>
+<body>
+    <h3>Explore Mixed Selector</h3>
+     <p>My First line <span class="css">CSS</span> </p>  <!--যদি ছোট কোনো লেখা কে কালার বা স্টাইল করতে চায় তাহলে span ইউস করি।  -->
+    <p class="yellow">My Second line CSS</p>
+    <p>My Third line CSS</p>
+    <p id="four">My Four line CSS</p>
+    <p class="yellow, bold">My Five line CSS</p>
+    <p>My Six line CSS</p>
+    <p>My Seven line CSS</p>
+    <p class="holud">My Eight line CSS</p>
+
+
+    <ol>
+        <li>Element Selector</li>
+        <li>Element item</li>
+
+    </ol>
+
+    <form action="">
+        <input type="text">
+        <input type="password">
+    </form>
+
+    <!-- যদি একবারে অনেক জিনিসকে কালার বা স্টাইল করতে চায় তাইলে div  -->
+
+    <div class="blog">
+        <h3>My blog</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque veniam, temporibus sit accusantium ex quae pariatur sunt? Praesentium, explicabo perferendis!</p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, labore.
+        </p>
+    </div>
+</body>
+</html>
