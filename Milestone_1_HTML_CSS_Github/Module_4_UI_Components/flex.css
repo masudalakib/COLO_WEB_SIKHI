@@ -1,0 +1,22 @@
+.parent{
+    padding: 25px;
+    background-color: azure;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around; /*important */
+    height: 350px;
+    align-items: center; /*aline er 350 er kase niye asbe heigh*/
+    flex-direction: row;
+    flex-wrap: wrap; /*er kaj hosce, jodi sob na dhore, niche niche dhorabe */
+
+}
+
+.child{
+    border: 2px solid rgb(121, 241, 171);
+    background-color: rgb(204, 83, 235);
+    padding: 20px;
+    font-size: 28px;
+    /* margin: 10px 0;  */
+    /* display: inline; */
+    /* width: 400; */
+}
