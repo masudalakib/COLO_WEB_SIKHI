@@ -62,3 +62,28 @@ nav ul li a{
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
+/* banner-style  */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-description{
+    font-size: 18px;
+}
+
+.banner-profile-pic{
+    width: 584 px;
+}
